@@ -8,10 +8,8 @@ Uses a multi-layer linear model to predict the return for each possible action b
 
 There is also a toggle to make the game human playable. Can you beat the high score of a trained model?
 
-#### This project is also human playable if human = True
-
 To predict the return, it takes the board state:
-- Number of lines completed by move
+- Number of lines completed by the move
 - Number of holes, empty blocks under a block occupied by a piece
 - Bumpiness, sum of the height differences between adjacent columns
 - Max height of any column
